@@ -1,0 +1,107 @@
+{
+  "name": "angular-classic",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/angular-classic/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:application",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/angular-classic",
+        "index": "apps/angular-classic/src/index.html",
+        "browser": "apps/angular-classic/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/angular-classic/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/angular-classic/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/src/assets",
+            "output": "assets"
+          }
+        ],
+        "styles": ["apps/angular-classic/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "angular-classic:build:production"
+        },
+        "development": {
+          "buildTarget": "angular-classic:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "angular-classic:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/angular-classic/jest.config.ts"
+      }
+    },
+    "test-performance": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "mkdir -p ./dist/lighthouse/angular-classic",
+          "lighthouse http://localhost:4200 --output-path ./dist/lighthouse/angular-classic/product-list-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/cart --output-path ./dist/lighthouse/angular-classic/cart-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/shipping --output-path ./dist/lighthouse/angular-classic/shipping-page-report.html --output json --output html"
+        ],
+        "parallel": false
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "angular-classic:build",
+        "port": 4200,
+        "staticFilePath": "dist/apps/angular-classic/browser",
+        "spa": true
+      }
+    }
+  }
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  },
+  {
+    "type": "Overnight",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day",
+    "price": 9.99
+  },
+  {
+    "type": "Postal",
+    "price": 2.99
+  },
+  {
+    "type": "Express",
+    "price": 19.99
+  },
+  {
+    "type": "Standard",
+    "price": 4.99
+  },
+  {
+    "type": "Same Day Delivery",
+    "price": 29.99
+  },
+  {
+    "type": "Economy",
+    "price": 3.49
+  },
+  {
+    "type": "Next Business Day",
+    "price": 15.99
+  },
+  {
+    "type": "In-Store Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Drone Delivery",
+    "price": 35.00
+  },
+  {
+    "type": "Weekend Delivery",
+    "price": 20.99
+  },
+  {
+    "type": "Freight",
+    "price": 99.99
+  },
+  {
+    "type": "Scheduled Delivery",
+    "price": 12.99
+  },
+  {
+    "type": "Cargo",
+    "price": 49.99
+  },
+  {
+    "type": "International Standard",
+    "price": 24.99
+  },
+  {
+    "type": "International Express",
+    "price": 59.99
+  },
+  {
+    "type": "Curbside Pickup",
+    "price": 0.00
+  },
+  {
+    "type": "Next-Day Air",
+    "price": 21.99
+  },
+  {
+    "type": "Regional Shipping",
+    "price": 8.49
+  },
+  {
+    "type": "Same Day Scheduled",
+    "price": 30.99
+  }
+]
