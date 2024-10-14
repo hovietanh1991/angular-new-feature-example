@@ -1,0 +1,106 @@
+{
+  "name": "angular-zoneless-signal-standalone",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/angular-zoneless-signal-standalone/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:application",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/angular-zoneless-signal-standalone",
+        "index": "apps/angular-zoneless-signal-standalone/src/index.html",
+        "browser": "apps/angular-zoneless-signal-standalone/src/main.ts",
+        "tsConfig": "apps/angular-zoneless-signal-standalone/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/angular-zoneless-signal-standalone/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/src/assets",
+            "output": "assets"
+          }
+        ],
+        "styles": ["apps/angular-zoneless-signal-standalone/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "angular-zoneless-signal-standalone:build:production"
+        },
+        "development": {
+          "buildTarget": "angular-zoneless-signal-standalone:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "angular-zoneless-signal-standalone:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/angular-zoneless-signal-standalone/jest.config.ts"
+      }
+    },
+    "test-performance": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "mkdir -p ./dist/lighthouse/angular-zoneless-signal-standalone",
+          "lighthouse http://localhost:4200 --output-path ./dist/lighthouse/angular-zoneless-signal-standalone/product-list-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/cart --output-path ./dist/lighthouse/angular-zoneless-signal-standalone/cart-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/shipping --output-path ./dist/lighthouse/angular-zoneless-signal-standalone/shipping-page-report.html --output json --output html"
+        ],
+        "parallel": false
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "angular-zoneless-signal-standalone:build",
+        "port": 4200,
+        "staticFilePath": "dist/apps/angular-zoneless-signal-standalone/browser",
+        "spa": true
+      }
+    }
+  }
+}

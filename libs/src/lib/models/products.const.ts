@@ -1,0 +1,40 @@
+import { Product } from './product.interface';
+
+// thanks Chat GPT for this dummy list
+export const products: Product[] = [
+  { name: 'Apple iPhone 13', price: 799, description: 'A flagship iPhone with A15 Bionic chip and advanced camera features' },
+  { name: 'Samsung Galaxy S21', price: 699, description: 'A powerful Android phone with Snapdragon 888 and dynamic AMOLED display' },
+  { name: 'Apple iPad Pro 12.9', price: 999, description: 'A large iPad with the M1 chip and stunning Liquid Retina display' },
+  { name: 'Google Pixel 6', price: 599, description: 'Google\'s Pixel phone with the Tensor chip and incredible camera software' },
+  { name: 'OnePlus 9', price: 729, description: 'An Android phone with fast charging and top-tier performance' },
+  { name: 'Apple MacBook Air M1', price: 999, description: 'A lightweight MacBook with Apple\'s M1 chip, offering long battery life' },
+  { name: 'Dell XPS 13', price: 1099, description: 'A high-end Windows laptop with a stunning display and excellent build quality' },
+  { name: 'Microsoft Surface Pro 7', price: 899, description: 'A versatile 2-in-1 tablet with the performance of a laptop' },
+  { name: 'Samsung Galaxy Tab S7', price: 649, description: 'A premium Android tablet with 120Hz display and S Pen support' },
+  { name: 'Apple MacBook Pro 16', price: 2399, description: 'Apple\'s professional-grade laptop with M1 Pro chip and a stunning display' },
+  { name: 'HP Spectre x360', price: 1299, description: 'A high-end 2-in-1 laptop with excellent build quality and display' },
+  { name: 'Lenovo ThinkPad X1 Carbon', price: 1499, description: 'A business laptop with great keyboard and durability' },
+  { name: 'Asus ZenBook Flip', price: 899, description: 'A convertible laptop with OLED display and thin, light design' },
+  { name: 'Apple iPhone 13 Pro Max', price: 1099, description: 'Apple\'s top-tier iPhone with advanced photography and video features' },
+  { name: 'Apple iPad Air', price: 599, description: 'A lightweight iPad with A14 Bionic chip and stunning display' },
+  { name: 'Samsung Galaxy Z Fold 3', price: 1799, description: 'A foldable Android phone with two AMOLED displays and high performance' },
+  { name: 'Microsoft Surface Laptop 4', price: 999, description: 'A sleek Windows laptop with excellent battery life and great build quality' },
+  { name: 'Google Pixelbook Go', price: 649, description: 'A lightweight Chromebook with a great keyboard and long battery life' },
+  { name: 'Apple iPhone SE (2020)', price: 399, description: 'A budget iPhone with A13 Bionic chip and familiar design' },
+  { name: 'Samsung Galaxy A52', price: 499, description: 'A mid-range Android phone with 120Hz display and quad-camera setup' },
+  { name: 'Sony Xperia 1 III', price: 1199, description: 'A flagship phone with a 4K HDR OLED display and advanced camera features' },
+  { name: 'Xiaomi Mi 11 Ultra', price: 999, description: 'A premium Android phone with top-of-the-line specs and camera' },
+  { name: 'Realme GT', price: 599, description: 'An affordable flagship Android phone with Snapdragon 888 and fast charging' },
+  { name: 'Motorola Moto G Power', price: 249, description: 'A budget Android phone with a massive battery' },
+  { name: 'Lenovo Tab P11 Pro', price: 499, description: 'A mid-range Android tablet with OLED display and good battery life' },
+  { name: 'Huawei MatePad Pro', price: 649, description: 'A premium Android tablet with a sleek design and Kirin processor' },
+  { name: 'Amazon Fire HD 10', price: 149, description: 'A budget-friendly tablet with access to Amazon\'s ecosystem' },
+  { name: 'Apple iPad Mini', price: 499, description: 'A compact iPad with A15 Bionic chip and a stunning 8.3-inch display' },
+  { name: 'Razer Blade 15', price: 1899, description: 'A high-end gaming laptop with powerful specs and sleek design' },
+  { name: 'Acer Swift 3', price: 699, description: 'A budget-friendly ultrabook with a lightweight design and good performance' },
+  { name: 'LG Gram 17', price: 1799, description: 'A super lightweight 17-inch laptop with long battery life' },
+  { name: 'HP Envy 13', price: 899, description: 'A great value laptop with slim design and powerful specs' },
+]?.map((item, index) => ({
+  ...item,
+  id: index + 1
+}));
