@@ -29,6 +29,10 @@ It is zoneless Angular application with signal and Control Flow (`angular-zonele
 - migration to standalone component
 - lazy loading
 
+### 5. `angular-zoneless-signal-standalone-on-push` example
+It is zoneless Angular application with signal, Control Flow, standalone component, lazy loading (`angular-zoneless-signal-standalone` above) with:
+- all component have change detection `ChangeDetectionStrategy.OnPush`
+
 ## Evaluation
 
 ### Comparison of file size:
@@ -38,50 +42,70 @@ It is zoneless Angular application with signal and Control Flow (`angular-zonele
     <th>angular-classic</th>
     <th>angular-zoneless</th>
     <th>angular-zoneless-signal</th>
-    <th>angular-zoneless-signal-standlone</th>
+    <th>angular-zoneless-signal-standalone</th>
+    <th>angular-zoneless-signal-standalone-on-push</th>
   </tr>
   <tr>
     <td>
-      <code>296K	main-XH3UTMP6.js</code><br/>
-      <code> 36K	polyfills-FFHMD2TL.js</code>
+      <code>34K polyfills-FFHMD2TL.js</code><br/>
+      <code>293K main-KIFNAHGW.js</code><br/>
     </td>
     <td>
-      <code>296K	main-FYSKULUK.js</code>
+      <code>293K main-XC256VI3.js</code><br/>
     </td>
     <td>
-      <code>288K	main-5TOLPGTC.js</code>
+      <code>286K main-PUMW4G4S.js</code><br/>
     </td>
     <td>
-      <code>4.0K	chunk-23XIXWZ2.js</code><br/>
-      <code>4.0K	chunk-4IZOWU7I.js</code><br/>
-      <code>4.0K	chunk-737NUATZ.js</code><br/>
-      <code>156K	chunk-HODWOW25.js</code><br/>
-      <code> 80K	chunk-IHZLPP53.js</code><br/>
-      <code> 32K	chunk-IJNML35G.js</code><br/>
-      <code>4.0K	chunk-JZLN75G2.js</code><br/>
-      <code>4.0K	chunk-LN4KKNF4.js</code><br/>
-      <code>4.0K	chunk-LXB4KU3R.js</code><br/>
-      <code>4.0K	chunk-MG5HZAQE.js</code><br/>
-      <code>4.0K	chunk-XDMJ3KUU.js</code><br/>
-      <code>4.0K	chunk-ZATBXEEJ.js</code><br/>
-      <code>4.0K	main-INA6TOXH.js</code><br/>
+      <code>2.0K main-Y7UHI4UA.js</code><br/>
+      <code>163 chunk-ZLAZWKF2.js</code><br/>
+      <code>201 chunk-B4PYFJ4Q.js</code><br/>
+      <code>3.4K chunk-Z4I427XL.js</code><br/>
+      <code>170 chunk-RNFLJMYH.js</code><br/>
+      <code>2.2K chunk-MMVJPAIM.js</code><br/>
+      <code>2.3K chunk-LXB4KU3R.js</code><br/>
+      <code>433 chunk-LN4KKNF4.js</code><br/>
+      <code>139 chunk-JZLN75G2.js</code><br/>
+      <code>31K chunk-JXTEMHM5.js</code><br/>
+      <code>78K chunk-IHZLPP53.js</code><br/>
+      <code>154K chunk-HODWOW25.js</code><br/>
+      <code>3.8K chunk-EDFV3OTP.js</code><br/>
+    </td>
+    <td>
+      <code>2.1K main-5NV45RZP.js</code><br/>
+      <code>145 chunk-ZNXD5MK3.js</code><br/>
+      <code>2.3K chunk-UPFHGQ54.js</code><br/>
+      <code>176 chunk-TSZE6KY4.js</code><br/>
+      <code>3.5K chunk-SMHDX6OY.js</code><br/>
+      <code>207 chunk-QEHMABB6.js</code><br/>
+      <code>2.2K chunk-OQP3KXAM.js</code><br/>
+      <code>433 chunk-LN4KKNF4.js</code><br/>
+      <code>169 chunk-JM4ATR5F.js</code><br/>
+      <code>78K chunk-IHZLPP53.js</code><br/>
+      <code>154K chunk-HODWOW25.js</code><br/>
+      <code>31K chunk-HE7EJPHD.js</code><br/>
+      <code>3.8K chunk-EDFV3OTP.js</code><br/>
     </td>
   </tr>
   <tr>
     <td>
-      <code>332K	total</code>
+      <code>total 356K</code>
     </td>
     <td>
-      <code>296K	total</code>
+      <code>total 320K</code>
     </td>
     <td>
-      <code>288K	total</code>
+      <code>total 312K</code>
     </td>
     <td>
-      <code>308K	total</code>
+      <code>total 317K</code>
+    </td>
+    <td>
+      <code>total 317K</code>
     </td>
   </tr>
 </table>
+
 
 ### Comparison of loading time
 
@@ -103,7 +127,8 @@ Result:
     <th>angular-classic</th>
     <th>angular-zoneless</th>
     <th>angular-zoneless-signal</th>
-    <th>angular-zoneless-signal-standlone</th>
+    <th>angular-zoneless-signal-standalone</th>
+    <th>angular-zoneless-signal-standalone-on-push</th>
   </tr>
   <tr>
     <td rowspan="5">
@@ -111,120 +136,134 @@ Result:
       <div>(page with form input)</div>
     </td>
     <td>First Contentful Paint</td>
-    <td><code>2.6s</code></td>
-    <td><code>3.4s</code></td>
-    <td><code>2.3s</code></td>
-    <td><code>3.3s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.7 s</code></td>
   </tr>
   <tr>
     <td>Largest Contentful Paint</td>
-    <td><code>2.7s</code></td>
-    <td><code>3.5s</code></td>
-    <td><code>2.5s</code></td>
-    <td><code>3.5s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.4 s</code></td>
+    <td><code>2.8 s</code></td>
+    <td><code>2.8 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>0ms</code></td>
-    <td><code>70ms</code></td>
-    <td><code>40ms</code></td>
-    <td><code>50ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>10 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
-    <td><code>2.6s</code></td>
-    <td><code>3.4s</code></td>
-    <td><code>2.3</code></td>
-    <td><code>3.3s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.7 s</code></td>
   </tr>
   <tr style="background-color: lightgray; font-weight: bold; color: black;">
     <td>Score</td>
-    <td>92/100</td>
-    <td>83/100</td>
-    <td>95/100</td>
-    <td>84/100</td>
+    <td>0.92</td>
+    <td>0.94</td>
+    <td>0.95</td>
+    <td>0.92</td>
+    <td>0.92</td>
   </tr>
-
   <tr>
     <td rowspan="5">
       <code>product-list-page</code><br/>
       <div>(contains inline list of ~30 items)</div>
     </td>
     <td>First Contentful Paint</td>
-    <td><code>3.5s</code></td>
-    <td><code>3.4s</code></td>
-    <td><code>3.3s</code></td>
-    <td><code>3.4s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.7 s</code></td>
   </tr>
   <tr>
     <td>Largest Contentful Paint</td>
-    <td><code>3.5s</code></td>
-    <td><code>3.5s</code></td>
-    <td><code>3.5s</code></td>
-    <td><code>3.8s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.4 s</code></td>
+    <td><code>3.5 s</code></td>
+    <td><code>2.8 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>0ms</code></td>
-    <td><code>140ms</code></td>
-    <td><code>130ms</code></td>
-    <td><code>70ms</code></td>
+    <td><code>60 ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>10 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
-    <td><code>3.5s</code></td>
-    <td><code>3.4s</code></td>
-    <td><code>3.3</code></td>
-    <td><code>3.4s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.7 s</code></td>
   </tr>
   <tr style="background-color: lightgray; font-weight: bold; color: black;">
     <td>Score</td>
-    <td>84/100</td>
-    <td>83/100</td>
-    <td>83/100</td>
-    <td>81/100</td>
+    <td>0.92</td>
+    <td>0.94</td>
+    <td>0.95</td>
+    <td>0.87</td>
+    <td>0.92</td>
   </tr>
-
   <tr>
     <td rowspan="5">
       <code>shipping-page</code><br/>
       <div>(contains list ~200 items fetched via http client)</div>
     </td>
     <td>First Contentful Paint</td>
-    <td><code>2.6s</code></td>
-    <td><code>2.3s</code></td>
-    <td><code>3.3s</code></td>
-    <td><code>2.7s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.7 s</code></td>
   </tr>
   <tr>
     <td>Largest Contentful Paint</td>
-    <td><code>2.9s</code></td>
-    <td><code>2.7s</code></td>
-    <td><code>3.8s</code></td>
-    <td><code>3.0s</code></td>
+    <td><code>2.9 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.8 s</code></td>
+    <td><code>2.8 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>10ms</code></td>
-    <td><code>140ms</code></td>
-    <td><code>180ms</code></td>
-    <td><code>120ms</code></td>
+    <td><code>30 ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>20 ms</code></td>
+    <td><code>10 ms</code></td>
+    <td><code>10 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
-    <td><code>2.6s</code></td>
-    <td><code>2.3s</code></td>
-    <td><code>3.3</code></td>
-    <td><code>2.7s</code></td>
+    <td><code>2.6 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.3 s</code></td>
+    <td><code>2.7 s</code></td>
+    <td><code>2.7 s</code></td>
   </tr>
   <tr style="background-color: lightgray; font-weight: bold; color: black;">
     <td>Score</td>
-    <td>91/100</td>
-    <td>92/100</td>
-    <td>79/100</td>
-    <td>89/100</td>
+    <td>0.91</td>
+    <td>0.93</td>
+    <td>0.94</td>
+    <td>0.92</td>
+    <td>0.92</td>
   </tr>
 </table>
+
 Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examples. 
 
 
@@ -338,17 +377,33 @@ By serving application as static file (start with commands `To serve example as 
 ```sh
 npm run angular-classic:test-performance
 ```
+or in Windows
+```sh
+npm run angular-classic:test-performance:windows
+```
 - For `angular-zoneless`:
 ```sh
 npm run angular-zoneless:test-performance
+```
+or in Windows
+```sh
+npm run angular-zoneless:test-performance:windows
 ```
 - For `angular-zoneless-signal`:
 ```sh
 npm run angular-zoneless-signal:test-performance
 ```
+or in Windows
+```sh
+npm run angular-zoneless-signal:test-performance:windows
+```
 - For `angular-zoneless-signal-standalone`:
 ```sh
 npm run angular-zoneless-signal-standalone:test-performance
+```
+or in Windows
+```sh
+npm run angular-zoneless-signal-standalone:test-performance:windows
 ```
 
 The test reports will be saved under `dist/lighthouse/<example name>/` 
