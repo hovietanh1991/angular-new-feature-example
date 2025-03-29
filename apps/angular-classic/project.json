@@ -87,9 +87,22 @@
       "options": {
         "commands": [
           "mkdir -p ./dist/lighthouse/angular-classic",
-          "lighthouse http://localhost:4200 --output-path ./dist/lighthouse/angular-classic/product-list-page-report.html --output json --output html",
-          "lighthouse http://localhost:4200/cart --output-path ./dist/lighthouse/angular-classic/cart-page-report.html --output json --output html",
-          "lighthouse http://localhost:4200/shipping --output-path ./dist/lighthouse/angular-classic/shipping-page-report.html --output json --output html"
+          "lighthouse http://localhost:4200 --chrome-flags=\"--headless\" --output-path ./dist/lighthouse/angular-classic/product-list-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/cart --chrome-flags=\"--headless\" --output-path ./dist/lighthouse/angular-classic/cart-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/shipping --chrome-flags=\"--headless\" --output-path ./dist/lighthouse/angular-classic/shipping-page-report.html --output json --output html"
+        ],
+        "parallel": false
+      }
+    },
+    "test-performance-windows": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "if not exist .\\dist\\lighthouse mkdir .\\dist\\lighthouse",
+          "if not exist .\\dist\\lighthouse\\angular-classic mkdir .\\dist\\lighthouse\\angular-classic",
+          "lighthouse http://localhost:4200 --chrome-flags=\"--headless\" --output-path .\\dist\\lighthouse\\angular-classic\\product-list-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200/cart --chrome-flags=\"--headless\" --output-path .\\dist\\lighthouse\\angular-classic\\cart-page-report.html --output json --output html",
+          "lighthouse http://localhost:4200\\shipping --chrome-flags=\"--headless\" --output-path .\\dist\\lighthouse\\angular-classic\\shipping-page-report.html --output json --output html"
         ],
         "parallel": false
       }
