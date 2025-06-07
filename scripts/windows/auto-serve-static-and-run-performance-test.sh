@@ -4,7 +4,8 @@
 set -e
 
 # Define paths
-PATH_TO_LOG_FILE="../dist/log"
+PATH_TO_COMMON_SCRIPTS="../common"
+PATH_TO_LOG_FILE="../../dist/log"
 
 # List of Angular applications
 APPS=("angular-classic" "angular-zoneless" "angular-zoneless-signal" "angular-zoneless-signal-standalone" "angular-zoneless-signal-standalone-on-push")
@@ -86,11 +87,11 @@ echo "All tests completed successfully!"
 
 # Summarize the results
 echo "Start summarizing performance report..."
-sh ./summarize-performance-report.sh
+sh "$PATH_TO_COMMON_SCRIPTS/summarize-performance-report.sh"
 
 # Summarize the results
 echo "Start summarizing file size..."
-sh ./summarize-file-size.sh
+sh "$PATH_TO_COMMON_SCRIPTS/summarize-file-size.sh"
 
 
 

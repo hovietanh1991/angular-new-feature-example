@@ -3,7 +3,7 @@
 # List of Angular applications
 APPS=("angular-classic" "angular-zoneless" "angular-zoneless-signal" "angular-zoneless-signal-standalone" "angular-zoneless-signal-standalone-on-push")
 
-PATH_TO_LIGHTHOUSE="../dist/lighthouse"
+PATH_TO_LIGHTHOUSE="../../dist/lighthouse"
 PATH_TO_SUMMARIZE_FILE="$PATH_TO_LIGHTHOUSE/summarize-performance-report.md"
 
 generate_table_header_row() {

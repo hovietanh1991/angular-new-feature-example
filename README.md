@@ -275,7 +275,7 @@ Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examp
 
 ## Try it in local
 
-(I used node 20.10.0 on MAC)
+(I used node 20.10.0 on Mac or Windows)
 
 ### Prerequisites
 
@@ -288,8 +288,29 @@ Install dependencies:
 ```sh
 npm i
 ```
+### Run performance test for all project
 
-### Run tasks
+There are 2 scripts written for Mac and Windows:
+- `./scripts/mac/auto-serve-static-and-run-performance-test.sh`
+- `./scripts/windows/auto-serve-static-and-run-performance-test.sh`
+
+To run these script, the current folder should be direct inside desired script folder. For example for Mac:
+- Go inside the folder: `cd ./scripts/mac`
+- Start the script: `./auto-serve-static-and-run-performance-test.sh`
+
+These scripts will execute the following steps for each project:
+- Build project
+- Start a server on localhost:4200 to serve these static files built from the previous step
+- Trigger performance test on localhost:4200
+- Stop the server
+
+After all projects are tested successfully, 2 reports will be written under `./dist/lighthouse/`:
+- `summarize-file-size.md`: File size of each project in total and for each file inside
+- `summarize-performance-report.sh`: Summarization of performance of each projects on each page
+
+These reports are written in .md format and can be used to update result in this README.md
+
+### Run tasks manually on each single project
 
 All necessary tasks are already defined in `scrips` in `package.json`. 
 
