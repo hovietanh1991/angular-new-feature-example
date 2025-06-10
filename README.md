@@ -1,4 +1,4 @@
-# Angular - New Feature Example
+# Angular Zoneless + Performance test with lighthouse
 
 This project is to evaluate some new features of Angular: Control Flow, Signal, Standalone component, Zoneless, lazy loading.
 These features will be integrated in an [Angular example application](https://v17.angular.io/guide/example-apps-list) in order.
@@ -269,9 +269,17 @@ Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examp
 
 ## Conclusion
 
-- Using zoneless can reduce the overall file size with minimal effort, but the performance of pages with form inputs will be negatively impacted.
-- Using Signal + Control flow can optimize performance, but the rendering of large content (received via the http client) will be negatively impacted. Otherwise form validation with Signal must be implemented manually for now
-- The use of standalone + lazy loading increases the total file size, but can optimize the loading time, as each page is loaded independently.
+- **Zoneless mode** provides immediate performance improvements and reduces bundle size by eliminating zone.js overhead.
+- **Signals and Control Flow syntax** lead to even better rendering performance and lighter main bundles, with faster contentful paints and lower blocking times.
+- **Standalone components** and **lazy loading** aid in modularity and code splitting, although they introduce a small overhead (via chunks), they do not compromise total size significantly.
+- **ChangeDetectionStrategy.OnPush**, while beneficial in some advanced apps, shows diminishing returns when Signals are already in use—suggesting it’s an optimization worth applying case-by-case.
+
+### Recommendation
+For modern Angular 18 projects:
+- Favor **zoneless + Signals** for the best performance/maintainability balance.
+- Adopt **standalone components and lazy loading** where scalable or modular design is needed.
+- Use **OnPush** selectively for large, frequently updated UIs where fine-grained control of change detection is critical.
+
 
 ## Try it in local
 
