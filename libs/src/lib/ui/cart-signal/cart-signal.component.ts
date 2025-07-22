@@ -3,9 +3,10 @@ import { CartService } from '../../services';
 import { Product } from '../../models';
 
 @Component({
-  selector: 'app-cart',
+  selector: 'lib-cart',
   templateUrl: './cart-signal.component.html',
-  styleUrls: ['../cart/cart.component.css'],
+  styleUrls: ['../cart/cart.component.scss'],
+  standalone: false,
 })
 export class CartSignalComponent {
 

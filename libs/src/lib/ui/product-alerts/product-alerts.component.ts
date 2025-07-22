@@ -2,9 +2,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Product } from '../../models';
 
 @Component({
-  selector: 'app-product-alerts',
+  selector: 'lib-product-alerts',
   templateUrl: './product-alerts.component.html',
-  styleUrls: ['./product-alerts.component.css']
+  styleUrls: ['./product-alerts.component.scss'],
+  standalone: false,
 })
 export class ProductAlertsComponent {
   @Input() product: Product | undefined;

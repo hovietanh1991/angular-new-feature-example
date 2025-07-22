@@ -5,9 +5,9 @@ import {RouterLink} from "@angular/router";
 import {CartSignalComponent} from '../cart-signal/cart-signal.component';
 
 @Component({
-  selector: 'app-cart',
+  selector: 'lib-cart',
   templateUrl: '../cart-signal/cart-signal.component.html',
-  styleUrls: ['../cart/cart.component.css'],
+  styleUrls: ['../cart/cart.component.scss'],
   imports: [
     FormsModule,
     CurrencyPipe,

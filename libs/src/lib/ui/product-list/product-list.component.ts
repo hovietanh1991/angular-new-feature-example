@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { products } from '../../models/products.const';
 
 @Component({
-  selector: 'app-product-list',
+  selector: 'lib-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.scss'],
+  standalone: false,
 })
 export class ProductListComponent {
 

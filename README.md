@@ -47,61 +47,61 @@ It is zoneless Angular application with signal, Control Flow, standalone compone
   </tr>
   <tr>
     <td>
-      <code>34K polyfills-FFHMD2TL.js</code><br/>
-      <code>293K main-KIFNAHGW.js</code><br/>
+      <code>34K polyfills-B6TNHZQ6.js</code><br/>
+      <code>293K main-3BLSXEG7.js</code><br/>
     </td>
     <td>
-      <code>293K main-XC256VI3.js</code><br/>
+      <code>294K main-7IJPOCNB.js</code><br/>
     </td>
     <td>
-      <code>286K main-PUMW4G4S.js</code><br/>
+      <code>286K main-RQZBLXQQ.js</code><br/>
     </td>
     <td>
-      <code>2.0K main-Y7UHI4UA.js</code><br/>
-      <code>163 chunk-ZLAZWKF2.js</code><br/>
-      <code>201 chunk-B4PYFJ4Q.js</code><br/>
-      <code>3.4K chunk-Z4I427XL.js</code><br/>
-      <code>170 chunk-RNFLJMYH.js</code><br/>
-      <code>2.2K chunk-MMVJPAIM.js</code><br/>
-      <code>2.3K chunk-LXB4KU3R.js</code><br/>
-      <code>433 chunk-LN4KKNF4.js</code><br/>
-      <code>139 chunk-JZLN75G2.js</code><br/>
-      <code>31K chunk-JXTEMHM5.js</code><br/>
-      <code>78K chunk-IHZLPP53.js</code><br/>
-      <code>154K chunk-HODWOW25.js</code><br/>
-      <code>3.8K chunk-EDFV3OTP.js</code><br/>
+      <code>163B chunk-KQ5WRH7W.js</code><br/>
+      <code>32K chunk-DHP3UIDE.js</code><br/>
+      <code>170B chunk-VY2VKGKZ.js</code><br/>
+      <code>2.1K chunk-DNYTLE73.js</code><br/>
+      <code>3.4K chunk-DXUWDIRG.js</code><br/>
+      <code>3.8K chunk-W6V5OBCH.js</code><br/>
+      <code>139B chunk-U6ORIS4X.js</code><br/>
+      <code>2.7K chunk-4MCLAGCM.js</code><br/>
+      <code>78K chunk-RDPD7AOF.js</code><br/>
+      <code>433B chunk-7TYJ4KZN.js</code><br/>
+      <code>151K chunk-VNAQPNVC.js</code><br/>
+      <code>3.4K main-C6JDNQZZ.js</code><br/>
+      <code>201B chunk-GS34RG7H.js</code><br/>
     </td>
     <td>
-      <code>2.1K main-5NV45RZP.js</code><br/>
-      <code>145 chunk-ZNXD5MK3.js</code><br/>
-      <code>2.3K chunk-UPFHGQ54.js</code><br/>
-      <code>176 chunk-TSZE6KY4.js</code><br/>
-      <code>3.5K chunk-SMHDX6OY.js</code><br/>
-      <code>207 chunk-QEHMABB6.js</code><br/>
-      <code>2.2K chunk-OQP3KXAM.js</code><br/>
-      <code>433 chunk-LN4KKNF4.js</code><br/>
-      <code>169 chunk-JM4ATR5F.js</code><br/>
-      <code>78K chunk-IHZLPP53.js</code><br/>
-      <code>154K chunk-HODWOW25.js</code><br/>
-      <code>31K chunk-HE7EJPHD.js</code><br/>
-      <code>3.8K chunk-EDFV3OTP.js</code><br/>
+      <code>3.5K main-7QR4ENFQ.js</code><br/>
+      <code>32K chunk-XTU6KJKR.js</code><br/>
+      <code>2.1K chunk-YMOXFPS5.js</code><br/>
+      <code>176B chunk-BYZXTZKU.js</code><br/>
+      <code>3.5K chunk-UF2VOHNU.js</code><br/>
+      <code>3.8K chunk-W6V5OBCH.js</code><br/>
+      <code>78K chunk-RDPD7AOF.js</code><br/>
+      <code>145B chunk-3VJLUEFY.js</code><br/>
+      <code>2.7K chunk-JRJUJ6IJ.js</code><br/>
+      <code>433B chunk-7TYJ4KZN.js</code><br/>
+      <code>151K chunk-VNAQPNVC.js</code><br/>
+      <code>169B chunk-I22EZ55U.js</code><br/>
+      <code>207B chunk-66SWXTDN.js</code><br/>
     </td>
   </tr>
   <tr>
     <td>
-      <code>total 356K</code>
+      <code>368K</code>
     </td>
     <td>
-      <code>total 320K</code>
+      <code>332K</code>
     </td>
     <td>
-      <code>total 312K</code>
+      <code>324K</code>
     </td>
     <td>
-      <code>total 317K</code>
+      <code>340K</code>
     </td>
     <td>
-      <code>total 317K</code>
+      <code>340K</code>
     </td>
   </tr>
 </table>
@@ -147,16 +147,16 @@ Result:
     <td><code>2.7 s</code></td>
     <td><code>2.6 s</code></td>
     <td><code>2.4 s</code></td>
-    <td><code>2.8 s</code></td>
+    <td><code>2.7 s</code></td>
     <td><code>2.8 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>10 ms</code></td>
     <td><code>0 ms</code></td>
     <td><code>0 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
@@ -191,16 +191,16 @@ Result:
     <td><code>2.7 s</code></td>
     <td><code>2.6 s</code></td>
     <td><code>2.4 s</code></td>
-    <td><code>3.5 s</code></td>
+    <td><code>2.8 s</code></td>
     <td><code>2.8 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>60 ms</code></td>
     <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
@@ -215,7 +215,7 @@ Result:
     <td>0.92</td>
     <td>0.94</td>
     <td>0.95</td>
-    <td>0.87</td>
+    <td>0.92</td>
     <td>0.92</td>
   </tr>
   <tr>
@@ -240,11 +240,11 @@ Result:
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>30 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>20 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
@@ -263,6 +263,8 @@ Result:
     <td>0.92</td>
   </tr>
 </table>
+
+
 
 Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examples. 
 
@@ -287,7 +289,7 @@ For modern Angular 18 projects:
 
 ### Prerequisites
 
-- node version `^18.19.1 || ^20.11.1 || ^22.0.0` for Angular 18.2 (see [Version compatibility](https://angular.dev/reference/versions))
+- node version `^18.19.1 || ^20.11.1 || ^22.0.0` for Angular 19.2 (see [Version compatibility](https://angular.dev/reference/versions))
 - For performance test: [Chrome-Browser](https://www.google.com/chrome/us/download-chrome/) must be installed.
 
 ### Setup

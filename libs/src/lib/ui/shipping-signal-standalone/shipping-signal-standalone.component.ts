@@ -1,13 +1,11 @@
-import {Component, Signal} from '@angular/core';
-import {toSignal} from "@angular/core/rxjs-interop";
-import {CurrencyPipe} from "@angular/common";
-import { CartService } from '../../services';
+import { Component } from '@angular/core';
+import { CurrencyPipe } from "@angular/common";
 import { ShippingSignalComponent } from '../shipping-signal/shipping-signal.component';
 
 @Component({
-  selector: 'app-shipping',
+  selector: 'lib-shipping',
   templateUrl: '../shipping-signal/shipping-signal.component.html',
-  styleUrls: ['../shipping/shipping.component.css'],
+  styleUrls: ['../shipping/shipping.component.scss'],
   imports: [
     CurrencyPipe
   ],

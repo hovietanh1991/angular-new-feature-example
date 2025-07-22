@@ -2,9 +2,10 @@ import {Component, signal} from '@angular/core';
 import { products } from '../../models/products.const';
 
 @Component({
-  selector: 'app-product-list',
+  selector: 'lib-product-list',
   templateUrl: './product-list-signal.component.html',
-  styleUrls: ['../product-list/product-list.component.css']
+  styleUrls: ['../product-list/product-list.component.scss'],
+  standalone: false,
 })
 export class ProductListSignalComponent {
 
