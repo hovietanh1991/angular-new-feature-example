@@ -4,9 +4,10 @@ import { CartService } from '../../services';
 import { Product } from '../../models';
 
 @Component({
-  selector: 'app-cart',
+  selector: 'lib-cart',
   templateUrl: './cart.component.html',
-  styleUrls: ['./cart.component.css']
+  styleUrls: ['./cart.component.scss'],
+  standalone: false,
 })
 export class CartComponent {
 

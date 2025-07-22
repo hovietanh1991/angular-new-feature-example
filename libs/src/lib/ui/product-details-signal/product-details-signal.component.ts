@@ -5,9 +5,10 @@ import { CartService } from '../../services';
 import { products } from '../../models/products.const';
 
 @Component({
-  selector: 'app-product-details',
+  selector: 'lib-product-details',
   templateUrl: './product-details-signal.component.html',
-  styleUrls: ['../product-details/product-details.component.css']
+  styleUrls: ['../product-details/product-details.component.scss'],
+  standalone: false,
 })
 export class ProductDetailsSignalComponent implements OnInit {
 

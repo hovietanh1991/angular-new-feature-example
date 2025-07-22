@@ -4,9 +4,10 @@ import { Observable } from 'rxjs';
 import { CartService } from '../../services';
 
 @Component({
-  selector: 'app-shipping',
+  selector: 'lib-shipping',
   templateUrl: './shipping.component.html',
-  styleUrls: ['./shipping.component.css']
+  styleUrls: ['./shipping.component.scss'],
+  standalone: false,
 })
 export class ShippingComponent implements OnInit {
 

@@ -3,9 +3,10 @@ import {toSignal} from "@angular/core/rxjs-interop";
 import { CartService } from '../../services';
 
 @Component({
-  selector: 'app-shipping',
+  selector: 'lib-shipping',
   templateUrl: './shipping-signal.component.html',
-  styleUrls: ['../shipping/shipping.component.css']
+  styleUrls: ['../shipping/shipping.component.scss'],
+  standalone: false,
 })
 export class ShippingSignalComponent {
 

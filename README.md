@@ -47,61 +47,61 @@ It is zoneless Angular application with signal, Control Flow, standalone compone
   </tr>
   <tr>
     <td>
+      <code>292K main-KIFNAHGW.js</code><br/>
       <code>34K polyfills-FFHMD2TL.js</code><br/>
-      <code>293K main-KIFNAHGW.js</code><br/>
     </td>
     <td>
-      <code>293K main-XC256VI3.js</code><br/>
+      <code>292K main-XC256VI3.js</code><br/>
     </td>
     <td>
-      <code>286K main-PUMW4G4S.js</code><br/>
+      <code>285K main-PUMW4G4S.js</code><br/>
     </td>
     <td>
-      <code>2.0K main-Y7UHI4UA.js</code><br/>
-      <code>163 chunk-ZLAZWKF2.js</code><br/>
-      <code>201 chunk-B4PYFJ4Q.js</code><br/>
-      <code>3.4K chunk-Z4I427XL.js</code><br/>
-      <code>170 chunk-RNFLJMYH.js</code><br/>
-      <code>2.2K chunk-MMVJPAIM.js</code><br/>
-      <code>2.3K chunk-LXB4KU3R.js</code><br/>
-      <code>433 chunk-LN4KKNF4.js</code><br/>
-      <code>139 chunk-JZLN75G2.js</code><br/>
       <code>31K chunk-JXTEMHM5.js</code><br/>
-      <code>78K chunk-IHZLPP53.js</code><br/>
-      <code>154K chunk-HODWOW25.js</code><br/>
+      <code>2.1K chunk-MMVJPAIM.js</code><br/>
+      <code>139B chunk-JZLN75G2.js</code><br/>
+      <code>77K chunk-IHZLPP53.js</code><br/>
+      <code>201B chunk-B4PYFJ4Q.js</code><br/>
+      <code>2.2K chunk-LXB4KU3R.js</code><br/>
+      <code>153K chunk-HODWOW25.js</code><br/>
+      <code>163B chunk-ZLAZWKF2.js</code><br/>
       <code>3.8K chunk-EDFV3OTP.js</code><br/>
+      <code>170B chunk-RNFLJMYH.js</code><br/>
+      <code>2.0K main-Y7UHI4UA.js</code><br/>
+      <code>3.4K chunk-Z4I427XL.js</code><br/>
+      <code>433B chunk-LN4KKNF4.js</code><br/>
     </td>
     <td>
-      <code>2.1K main-5NV45RZP.js</code><br/>
-      <code>145 chunk-ZNXD5MK3.js</code><br/>
-      <code>2.3K chunk-UPFHGQ54.js</code><br/>
-      <code>176 chunk-TSZE6KY4.js</code><br/>
-      <code>3.5K chunk-SMHDX6OY.js</code><br/>
-      <code>207 chunk-QEHMABB6.js</code><br/>
-      <code>2.2K chunk-OQP3KXAM.js</code><br/>
-      <code>433 chunk-LN4KKNF4.js</code><br/>
-      <code>169 chunk-JM4ATR5F.js</code><br/>
-      <code>78K chunk-IHZLPP53.js</code><br/>
-      <code>154K chunk-HODWOW25.js</code><br/>
+      <code>207B chunk-QEHMABB6.js</code><br/>
       <code>31K chunk-HE7EJPHD.js</code><br/>
       <code>3.8K chunk-EDFV3OTP.js</code><br/>
+      <code>176B chunk-TSZE6KY4.js</code><br/>
+      <code>145B chunk-ZNXD5MK3.js</code><br/>
+      <code>153K chunk-HODWOW25.js</code><br/>
+      <code>2.1K chunk-OQP3KXAM.js</code><br/>
+      <code>2.3K chunk-UPFHGQ54.js</code><br/>
+      <code>77K chunk-IHZLPP53.js</code><br/>
+      <code>3.4K chunk-SMHDX6OY.js</code><br/>
+      <code>433B chunk-LN4KKNF4.js</code><br/>
+      <code>2.0K main-5NV45RZP.js</code><br/>
+      <code>169B chunk-JM4ATR5F.js</code><br/>
     </td>
   </tr>
   <tr>
     <td>
-      <code>total 356K</code>
+      <code>total 712</code>
     </td>
     <td>
-      <code>total 320K</code>
+      <code>total 640</code>
     </td>
     <td>
-      <code>total 312K</code>
+      <code>total 624</code>
     </td>
     <td>
-      <code>total 317K</code>
+      <code>total 664</code>
     </td>
     <td>
-      <code>total 317K</code>
+      <code>total 664</code>
     </td>
   </tr>
 </table>
@@ -152,11 +152,11 @@ Result:
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>10 ms</code></td>
     <td><code>0 ms</code></td>
     <td><code>0 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
@@ -180,43 +180,43 @@ Result:
       <div>(contains inline list of ~30 items)</div>
     </td>
     <td>First Contentful Paint</td>
-    <td><code>2.6 s</code></td>
+    <td><code>3.5 s</code></td>
     <td><code>2.3 s</code></td>
-    <td><code>2.3 s</code></td>
-    <td><code>2.7 s</code></td>
-    <td><code>2.7 s</code></td>
+    <td><code>3.2 s</code></td>
+    <td><code>3.2 s</code></td>
+    <td><code>3.1 s</code></td>
   </tr>
   <tr>
     <td>Largest Contentful Paint</td>
-    <td><code>2.7 s</code></td>
+    <td><code>3.6 s</code></td>
     <td><code>2.6 s</code></td>
-    <td><code>2.4 s</code></td>
     <td><code>3.5 s</code></td>
-    <td><code>2.8 s</code></td>
+    <td><code>3.5 s</code></td>
+    <td><code>3.3 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
     <td><code>60 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>20 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
-    <td><code>2.6 s</code></td>
+    <td><code>3.5 s</code></td>
     <td><code>2.3 s</code></td>
-    <td><code>2.3 s</code></td>
-    <td><code>2.7 s</code></td>
-    <td><code>2.7 s</code></td>
+    <td><code>3.2 s</code></td>
+    <td><code>3.2 s</code></td>
+    <td><code>3.1 s</code></td>
   </tr>
   <tr style="background-color: lightgray; font-weight: bold; color: black;">
     <td>Score</td>
-    <td>0.92</td>
+    <td>0.71</td>
     <td>0.94</td>
-    <td>0.95</td>
-    <td>0.87</td>
-    <td>0.92</td>
+    <td>0.73</td>
+    <td>0.84</td>
+    <td>0.86</td>
   </tr>
   <tr>
     <td rowspan="5">
@@ -225,44 +225,45 @@ Result:
     </td>
     <td>First Contentful Paint</td>
     <td><code>2.6 s</code></td>
-    <td><code>2.3 s</code></td>
+    <td><code>3.3 s</code></td>
     <td><code>2.3 s</code></td>
     <td><code>2.7 s</code></td>
     <td><code>2.7 s</code></td>
   </tr>
   <tr>
     <td>Largest Contentful Paint</td>
-    <td><code>2.9 s</code></td>
     <td><code>2.7 s</code></td>
+    <td><code>3.7 s</code></td>
     <td><code>2.6 s</code></td>
     <td><code>2.8 s</code></td>
     <td><code>2.8 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
-    <td><code>30 ms</code></td>
-    <td><code>10 ms</code></td>
     <td><code>20 ms</code></td>
     <td><code>10 ms</code></td>
-    <td><code>10 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
+    <td><code>0 ms</code></td>
   </tr>
   <tr>
     <td>Speed Index</td>
     <td><code>2.6 s</code></td>
-    <td><code>2.3 s</code></td>
+    <td><code>3.3 s</code></td>
     <td><code>2.3 s</code></td>
     <td><code>2.7 s</code></td>
     <td><code>2.7 s</code></td>
   </tr>
   <tr style="background-color: lightgray; font-weight: bold; color: black;">
     <td>Score</td>
-    <td>0.91</td>
-    <td>0.93</td>
+    <td>0.92</td>
+    <td>0.83</td>
     <td>0.94</td>
-    <td>0.92</td>
-    <td>0.92</td>
+    <td>0.91</td>
+    <td>0.91</td>
   </tr>
 </table>
+
 
 Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examples. 
 
@@ -287,7 +288,7 @@ For modern Angular 18 projects:
 
 ### Prerequisites
 
-- node version `^18.19.1 || ^20.11.1 || ^22.0.0` for Angular 18.2 (see [Version compatibility](https://angular.dev/reference/versions))
+- node version `^18.19.1 || ^20.11.1 || ^22.0.0` for Angular 19.2 (see [Version compatibility](https://angular.dev/reference/versions))
 - For performance test: [Chrome-Browser](https://www.google.com/chrome/us/download-chrome/) must be installed.
 
 ### Setup
