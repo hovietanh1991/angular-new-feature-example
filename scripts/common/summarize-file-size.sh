@@ -34,7 +34,7 @@ generate_summarize_total_size() {
   for app in "${APPS[@]}"; do
     local appFolder="$PATH_TO_APPS/$app/browser/"
     echo "    <td>" >> $PATH_TO_SUMMARIZE_FILE
-    ls -ltrnh $appFolder | awk 'NR==1 {print "      <code>" $0 "</code>"}' >> $PATH_TO_SUMMARIZE_FILE
+    du -sh $appFolder | awk 'NR==1 {print "      <code>" $1 "</code>"}' >> $PATH_TO_SUMMARIZE_FILE
     echo "    </td>" >> $PATH_TO_SUMMARIZE_FILE
   done
   echo "  </tr>" >> $PATH_TO_SUMMARIZE_FILE
