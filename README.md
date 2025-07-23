@@ -48,60 +48,60 @@ It is zoneless Angular application with signal, Control Flow, standalone compone
   <tr>
     <td>
       <code>34K polyfills-B6TNHZQ6.js</code><br/>
-      <code>293K main-3BLSXEG7.js</code><br/>
+      <code>297K main-ZDXD22UE.js</code><br/>
     </td>
     <td>
-      <code>294K main-7IJPOCNB.js</code><br/>
+      <code>297K main-IJRDZW33.js</code><br/>
     </td>
     <td>
-      <code>286K main-RQZBLXQQ.js</code><br/>
+      <code>290K main-IJBB64Y3.js</code><br/>
     </td>
     <td>
-      <code>163B chunk-KQ5WRH7W.js</code><br/>
-      <code>32K chunk-DHP3UIDE.js</code><br/>
-      <code>170B chunk-VY2VKGKZ.js</code><br/>
-      <code>2.1K chunk-DNYTLE73.js</code><br/>
-      <code>3.4K chunk-DXUWDIRG.js</code><br/>
-      <code>3.8K chunk-W6V5OBCH.js</code><br/>
-      <code>139B chunk-U6ORIS4X.js</code><br/>
-      <code>2.7K chunk-4MCLAGCM.js</code><br/>
-      <code>78K chunk-RDPD7AOF.js</code><br/>
-      <code>433B chunk-7TYJ4KZN.js</code><br/>
-      <code>151K chunk-VNAQPNVC.js</code><br/>
-      <code>3.4K main-C6JDNQZZ.js</code><br/>
-      <code>201B chunk-GS34RG7H.js</code><br/>
+      <code>2.1K chunk-ZEM7F54E.js</code><br/>
+      <code>32K chunk-5JXSRCIR.js</code><br/>
+      <code>201B chunk-FLKPZWMS.js</code><br/>
+      <code>163B chunk-JJ32GHHO.js</code><br/>
+      <code>170B chunk-GILSGHVB.js</code><br/>
+      <code>3.4K chunk-HE4ZIU57.js</code><br/>
+      <code>3.5K main-XVFXRFCL.js</code><br/>
+      <code>3.8K chunk-EFDZX3H2.js</code><br/>
+      <code>2.6K chunk-NVT7DVFD.js</code><br/>
+      <code>139B chunk-F6XV53DP.js</code><br/>
+      <code>79K chunk-3W3QFXXY.js</code><br/>
+      <code>433B chunk-VG7ZUN6E.js</code><br/>
+      <code>153K chunk-DFSAO6VV.js</code><br/>
     </td>
     <td>
-      <code>3.5K main-7QR4ENFQ.js</code><br/>
-      <code>32K chunk-XTU6KJKR.js</code><br/>
-      <code>2.1K chunk-YMOXFPS5.js</code><br/>
-      <code>176B chunk-BYZXTZKU.js</code><br/>
-      <code>3.5K chunk-UF2VOHNU.js</code><br/>
-      <code>3.8K chunk-W6V5OBCH.js</code><br/>
-      <code>78K chunk-RDPD7AOF.js</code><br/>
-      <code>145B chunk-3VJLUEFY.js</code><br/>
-      <code>2.7K chunk-JRJUJ6IJ.js</code><br/>
-      <code>433B chunk-7TYJ4KZN.js</code><br/>
-      <code>151K chunk-VNAQPNVC.js</code><br/>
-      <code>169B chunk-I22EZ55U.js</code><br/>
-      <code>207B chunk-66SWXTDN.js</code><br/>
+      <code>3.5K main-F26PGH6R.js</code><br/>
+      <code>32K chunk-OP2ZNSPM.js</code><br/>
+      <code>169B chunk-KA33FONS.js</code><br/>
+      <code>2.1K chunk-RCGX7L2E.js</code><br/>
+      <code>176B chunk-MNZNI3HI.js</code><br/>
+      <code>207B chunk-YW5KHJCM.js</code><br/>
+      <code>3.5K chunk-GPNA6JO7.js</code><br/>
+      <code>433B chunk-VG7ZUN6E.js</code><br/>
+      <code>3.8K chunk-EFDZX3H2.js</code><br/>
+      <code>79K chunk-3W3QFXXY.js</code><br/>
+      <code>145B chunk-GOD3PF4J.js</code><br/>
+      <code>153K chunk-DFSAO6VV.js</code><br/>
+      <code>2.6K chunk-JGRDYHOM.js</code><br/>
     </td>
   </tr>
   <tr>
     <td>
-      <code>368K</code>
+      <code>372K</code>
     </td>
     <td>
-      <code>332K</code>
+      <code>336K</code>
     </td>
     <td>
-      <code>324K</code>
+      <code>328K</code>
     </td>
     <td>
-      <code>340K</code>
+      <code>344K</code>
     </td>
     <td>
-      <code>340K</code>
+      <code>344K</code>
     </td>
   </tr>
 </table>
@@ -147,8 +147,8 @@ Result:
     <td><code>2.7 s</code></td>
     <td><code>2.6 s</code></td>
     <td><code>2.4 s</code></td>
-    <td><code>2.7 s</code></td>
-    <td><code>2.8 s</code></td>
+    <td><code>2.9 s</code></td>
+    <td><code>2.9 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
@@ -171,8 +171,8 @@ Result:
     <td>0.92</td>
     <td>0.94</td>
     <td>0.95</td>
-    <td>0.92</td>
-    <td>0.92</td>
+    <td>0.91</td>
+    <td>0.91</td>
   </tr>
   <tr>
     <td rowspan="5">
@@ -191,7 +191,7 @@ Result:
     <td><code>2.7 s</code></td>
     <td><code>2.6 s</code></td>
     <td><code>2.4 s</code></td>
-    <td><code>2.8 s</code></td>
+    <td><code>2.9 s</code></td>
     <td><code>2.8 s</code></td>
   </tr>
   <tr>
@@ -215,7 +215,7 @@ Result:
     <td>0.92</td>
     <td>0.94</td>
     <td>0.95</td>
-    <td>0.92</td>
+    <td>0.91</td>
     <td>0.92</td>
   </tr>
   <tr>
@@ -235,14 +235,14 @@ Result:
     <td><code>2.9 s</code></td>
     <td><code>2.7 s</code></td>
     <td><code>2.6 s</code></td>
-    <td><code>2.8 s</code></td>
-    <td><code>2.8 s</code></td>
+    <td><code>2.9 s</code></td>
+    <td><code>2.9 s</code></td>
   </tr>
   <tr>
     <td>Total Blocking Time</td>
+    <td><code>10 ms</code></td>
     <td><code>0 ms</code></td>
-    <td><code>0 ms</code></td>
-    <td><code>0 ms</code></td>
+    <td><code>10 ms</code></td>
     <td><code>0 ms</code></td>
     <td><code>0 ms</code></td>
   </tr>
@@ -259,12 +259,10 @@ Result:
     <td>0.91</td>
     <td>0.93</td>
     <td>0.94</td>
-    <td>0.92</td>
-    <td>0.92</td>
+    <td>0.91</td>
+    <td>0.91</td>
   </tr>
 </table>
-
-
 
 Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examples. 
 
@@ -272,12 +270,12 @@ Cumulative Layout Shift is 0.004 and remains unchanged on all pages of all examp
 ## Conclusion
 
 - **Zoneless mode** provides immediate performance improvements and reduces bundle size by eliminating zone.js overhead.
-- **Signals and Control Flow syntax** lead to even better rendering performance and lighter main bundles, with faster contentful paints and lower blocking times.
+- **Signals and Control Flow syntax** lead to even better rendering performance and lighter main bundles, with faster contentful paints and lower blocking times. Since Angular 20 the `*ngIf`, `*ngFor`, and `*ngSwitch` are deprecated and should be replaced by control flow syntax.
 - **Standalone components** and **lazy loading** aid in modularity and code splitting, although they introduce a small overhead (via chunks), they do not compromise total size significantly.
 - **ChangeDetectionStrategy.OnPush**, while beneficial in some advanced apps, shows diminishing returns when Signals are already in use—suggesting it’s an optimization worth applying case-by-case.
 
 ### Recommendation
-For modern Angular 18 projects:
+For modern Angular projects:
 - Favor **zoneless + Signals** for the best performance/maintainability balance.
 - Adopt **standalone components and lazy loading** where scalable or modular design is needed.
 - Use **OnPush** selectively for large, frequently updated UIs where fine-grained control of change detection is critical.
@@ -285,11 +283,9 @@ For modern Angular 18 projects:
 
 ## Try it in local
 
-(I used node 20.10.0 on Mac or Windows)
-
 ### Prerequisites
 
-- node version `^18.19.1 || ^20.11.1 || ^22.0.0` for Angular 19.2 (see [Version compatibility](https://angular.dev/reference/versions))
+- node version `^20.19.0 || ^22.12.0 || ^24.0.0` for Angular 20.0 (see [Version compatibility](https://angular.dev/reference/versions))
 - For performance test: [Chrome-Browser](https://www.google.com/chrome/us/download-chrome/) must be installed.
 
 ### Setup
@@ -462,8 +458,15 @@ To generate a new library, use:
 npx nx g @nx/angular:lib mylib
 ```
 
-All contributions via Pull Request are welcome!
+### Migrate to new nx and Angular version
+
+Use `nx migrate lastet` to migrate the project to the latest nx and Angular version.
+
+If you prefer some specific version of Angular, please check the Nx and Angular Version Compatibility in [the official nx.dev apge](https://nx.dev/technologies/angular/recipes/angular-nx-version-matrix#nx-and-angular-version-compatibility-matrix)
+and use `nx migrate <specific nx version for desired Angular version>` to migrate e.g., use `nx migrate 20.5.0` to migrate to Angular 19.2.0  
 
 -------
+
+All contributions via Pull Request are welcome!
 
 Author: Viet Anh Ho
