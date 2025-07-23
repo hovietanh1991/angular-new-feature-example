@@ -16,7 +16,7 @@ The classic Angular application (see [Angular example application](https://v17.a
 
 ### 2. `angular-zoneless` example
 It is classic Angular application (`angular-classic` above) with some changes to apply zoneless feature:
-- `provideExperimentalZonelessChangeDetection()` is used in `app.module.ts`
+- `provideZonelessChangeDetection()` is used in `app.module.ts`
 - `"polyfills": ["zone.js"]` was removed in `project.json`
 
 ### 3. `angular-zoneless-signal` example
