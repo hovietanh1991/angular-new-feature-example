@@ -4,7 +4,7 @@
   <a routerLink="/shipping">Shipping Prices</a>
 </p>
 
-@for (item of items(); track item.id) {
+@for (item of items(); track $index) {
   <div class="cart-item">
     <span>{{ item.name }} </span>
     <span>{{ item.price | currency }}</span>
